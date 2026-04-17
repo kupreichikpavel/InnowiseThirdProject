@@ -1,0 +1,8 @@
+2026-04-15 14:26:26 [main] INFO  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Starting reading info from file
+2026-04-15 14:26:39 [main] WARN  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Error path to file, path: 
+2026-04-15 14:26:39 [main] INFO  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Starting reading info from file
+2026-04-15 14:26:56 [main] WARN  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Error path to file, path: null
+2026-04-15 14:26:56 [main] INFO  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Starting reading info from file
+2026-04-15 14:36:20 [main] WARN  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Error path to file, path is null
+2026-04-15 14:36:20 [main] INFO  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Starting reading info from file
+2026-04-16 09:30:02 [main] WARN  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Error path to file, path is empty
