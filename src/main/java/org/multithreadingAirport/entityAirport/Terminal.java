@@ -8,4 +8,6 @@ import lombok.Setter;
 @Setter
 @RequiredArgsConstructor
 public class Terminal {
+    private int capacity;
+    private int currentPassengers;
 }

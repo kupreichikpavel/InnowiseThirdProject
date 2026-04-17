@@ -9,6 +9,7 @@ import java.util.concurrent.Callable;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.RequiredArgsConstructor;
+import org.multithreadingAirport.states.PlaneState;
 
 @Getter
 @Setter
@@ -18,8 +19,9 @@ public class Airplane implements Callable<Void> {
     private int planeId;
     private int planeCapacity;
     private int averagePassengers;
-    private Gate gate;
-    private GateState planeState;
+    private int departingPassengers;
+    private Gate currentGate;
+    private PlaneState planeState;
 
 
     @Override
@@ -41,13 +43,7 @@ public class Airplane implements Callable<Void> {
         if (airplane.getPlaneId() != getPlaneId()) {
             return false;
         }
-
-        return getPlaneId() == airplane.getPlaneId()
-                && getPlaneCapacity() == airplane.getPlaneCapacity()
-                && getAveragePassengers() == airplane.getAveragePassengers()
-                && getGate() == airplane.getGate()
-                && getGate().equals(airplane.getGate())
-                && getPlaneState().equals(airplane.getPlaneState());
+        return getPlaneId() == airplane.getPlaneId();
     }
 
     @Override
@@ -55,8 +51,7 @@ public class Airplane implements Callable<Void> {
         int result = getPlaneId();
         result = 31 * result + getPlaneCapacity();
         result = 31 * result + getAveragePassengers();
-        result = 31 * result + getGate().hashCode();
-        result = 31 * result + getGate().hashCode();
+        result = 31 * result + currentGate.hashCode();
         result = 31 * result + getPlaneState().hashCode();
         return result;
     }

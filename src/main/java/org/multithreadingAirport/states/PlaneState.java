@@ -1,8 +1,7 @@
-package org.multithreadingAirport.entityAirport;
+package org.multithreadingAirport.states;
 
 import org.multithreadingAirport.exception.CustomAirPortException;
 
-public interface GateState {
+public interface PlaneState {
     void handler() throws CustomAirPortException;
-
 }

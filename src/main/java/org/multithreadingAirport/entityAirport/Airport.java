@@ -9,7 +9,7 @@ public class Airport {
     private List<Gate> gateList;
     private Semaphore gateSemaphone;
     private Lock lock = new ReentrantLock();
-    private int passengersInTerminal = 100;
+    private Terminal terminal;
 
     public Airport(List<Gate> gateList, Semaphore gateSemaphone) {
         this.gateList = gateList;
