@@ -7,6 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @RequiredArgsConstructor
+//TODO: переделать log и сделать работу с id
 public class Gate {
     private int id;
     private int size;
@@ -16,4 +17,6 @@ public class Gate {
         this.id = id;
         this.occupied = occupied;
     }
+
+
 }

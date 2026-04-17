@@ -10,6 +10,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.RequiredArgsConstructor;
 import org.multithreadingAirport.states.PlaneState;
+import org.multithreadingAirport.states.impl.DepartedState;
 
 @Getter
 @Setter
@@ -21,11 +22,21 @@ public class Airplane implements Callable<Void> {
     private int averagePassengers;
     private int departingPassengers;
     private Gate currentGate;
+    private Terminal currentTerminal;
     private PlaneState planeState;
+    private Airport airport;
 
+    public Airplane(int planeId, Airport airport) {
+        this.planeId = planeId;
+        this.airport = airport;
+    }
 
     @Override
     public Void call() throws CustomAirPortException {
+        while (!(planeState instanceof DepartedState)) {
+            planeState.handler();
+        }
+        planeState.handler();
         return null;
     }
 
@@ -43,7 +54,7 @@ public class Airplane implements Callable<Void> {
         if (airplane.getPlaneId() != getPlaneId()) {
             return false;
         }
-        return getPlaneId() == airplane.getPlaneId();
+        return true;
     }
 
     @Override

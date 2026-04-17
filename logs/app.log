@@ -6,3 +6,187 @@
 2026-04-15 14:36:20 [main] WARN  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Error path to file, path is null
 2026-04-15 14:36:20 [main] INFO  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Starting reading info from file
 2026-04-16 09:30:02 [main] WARN  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Error path to file, path is empty
+2026-04-17 23:09:51 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane1arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane4arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane3arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane2arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane5arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane6arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane1arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane3arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane5arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane4arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane4arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane1arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane4departed
+2026-04-17 23:09:51 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane1departed
+2026-04-17 23:09:51 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane6arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane2arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane5arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane2arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane5departed
+2026-04-17 23:09:51 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane3arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane2departed
+2026-04-17 23:09:51 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane6arrived at airport
+2026-04-17 23:09:51 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane3departed
+2026-04-17 23:09:51 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane6departed
+2026-04-17 23:10:47 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane2arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane3arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane10arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane9arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane5arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane4arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane7arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane1arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane8arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane6arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane7arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane3arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane6arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane1arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane9arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane10arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane2arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane9arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane6arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane7arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane3arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane10arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane4arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane1arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane5arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane2arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane10departed
+2026-04-17 23:10:47 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane8arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane2departed
+2026-04-17 23:10:47 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane1departed
+2026-04-17 23:10:47 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane8arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane4arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane3departed
+2026-04-17 23:10:47 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane9departed
+2026-04-17 23:10:47 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane4departed
+2026-04-17 23:10:47 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane8departed
+2026-04-17 23:10:47 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane5arrived at airport
+2026-04-17 23:10:47 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane5departed
+2026-04-17 23:10:47 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane6departed
+2026-04-17 23:10:47 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane7departed
+2026-04-17 23:11:00 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane6arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane2arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane4arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane7arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane8arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane8arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane7arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane6arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane1arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane2arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane9arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane2arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane1arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane9arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane9arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane2departed
+2026-04-17 23:11:00 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane4arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane5arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane1arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane9departed
+2026-04-17 23:11:00 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane4arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane4departed
+2026-04-17 23:11:00 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane5arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane8arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane6arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane8departed
+2026-04-17 23:11:00 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane3arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane1departed
+2026-04-17 23:11:00 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane6departed
+2026-04-17 23:11:00 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane7arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane10arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane3arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane7departed
+2026-04-17 23:11:00 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane5arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane10arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane3arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane5departed
+2026-04-17 23:11:00 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane3departed
+2026-04-17 23:11:00 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane10arrived at airport
+2026-04-17 23:11:00 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane10departed
+2026-04-17 23:11:25 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 1 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 5 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 3 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 10 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 6 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 8 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 4 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 9 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 2 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 5 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 9 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 3 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 2 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 5 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 3 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 10 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 9 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 7 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 9 departed
+2026-04-17 23:11:25 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 7 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 7 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 7 departed
+2026-04-17 23:11:25 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 2 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 2 departed
+2026-04-17 23:11:25 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 1 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 1 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 1 departed
+2026-04-17 23:11:25 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 5 departed
+2026-04-17 23:11:25 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 6 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 6 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 4 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 6 departed
+2026-04-17 23:11:25 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 4 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 4 departed
+2026-04-17 23:11:25 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 10 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 10 departed
+2026-04-17 23:11:25 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 8 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 3 departed
+2026-04-17 23:11:25 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 8 arrived at airport
+2026-04-17 23:11:25 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 8 departed
+2026-04-17 23:13:44 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 2 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 5 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 7 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 1 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 3 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 2 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 1 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 6 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 5 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 6 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 7 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 3 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 4 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 4 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 8 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 8 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 1 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 8 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 1 departed
+2026-04-17 23:13:44 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 8 departed
+2026-04-17 23:13:44 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 4 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 4 departed
+2026-04-17 23:13:44 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 2 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 3 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 2 departed
+2026-04-17 23:13:44 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 3 departed
+2026-04-17 23:13:44 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 7 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 7 departed
+2026-04-17 23:13:44 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 5 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 9 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 5 departed
+2026-04-17 23:13:44 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 9 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 6 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 9 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 6 departed
+2026-04-17 23:13:44 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 9 departed
+2026-04-17 23:13:44 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 10 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 10 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 10 arrived at airport
+2026-04-17 23:13:44 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 10 departed

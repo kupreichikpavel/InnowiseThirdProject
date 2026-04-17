@@ -32,7 +32,7 @@ public class CustomFileReaderImpl implements CustomFileReader {
             logger.info("Starting reading info from file");
             List<String> resultLines = lines
                     .filter(line -> !line.isEmpty())
-                    .collect(Collectors.toUnmodifiableList());
+                    .collect(Collectors.toList());
             if (resultLines.isEmpty()) {
                 throw new CustomAirPortException();
             }
