@@ -22,24 +22,24 @@ public class Main {
 
     public static void main(String[] args) throws CustomAirPortException, ExecutionException, InterruptedException {
         List<Gate> terminal1Gates = List.of(
-                new Gate(1, false),
-                new Gate(2, false)
+                new Gate(false),
+                new Gate(false)
         );
 
         List<Gate> terminal2Gates = List.of(
-                new Gate(3, false),
-                new Gate(4, false)
+                new Gate(false),
+                new Gate(false)
         );
 
-        Terminal terminal1 = new Terminal(1, terminal1Gates);
-        Terminal terminal2 = new Terminal(2, terminal2Gates);
+        Terminal terminal1 = new Terminal(terminal1Gates);
+        Terminal terminal2 = new Terminal(terminal2Gates);
 
         Airport airport = new Airport(List.of(terminal1, terminal2));
 
         List<Airplane> airplanes = new ArrayList<>();
 
         for (int i = 1; i <= 10; i++) {
-            Airplane airplane = new Airplane(i, airport);
+            Airplane airplane = new Airplane(airport);
             airplane.setPlaneState(new ArrivedState(airplane, airport));
             airplanes.add(airplane);
         }

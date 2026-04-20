@@ -14,9 +14,9 @@ public class DepartedState extends AbstractPlaneState {
         super(airplane, airport);
     }
 
+
     @Override
-    public void handler() throws CustomAirPortException {
-        //TODO: переделать log и вывод информации
-        logger.info("Plane " + airplane.getPlaneId() + " departed");
+    public void handler() {
+        logger.info("Plane {} departed", airplane.getPlaneId());
     }
 }

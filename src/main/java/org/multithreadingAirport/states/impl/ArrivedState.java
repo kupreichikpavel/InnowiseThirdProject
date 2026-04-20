@@ -16,8 +16,10 @@ public class ArrivedState extends AbstractPlaneState {
 
     @Override
     public void handler() throws CustomAirPortException {
-        //TODO: переделать log и вывод информации
-        logger.info("Plane " + airplane.getPlaneId() + " arrived at airport");
+        logger.info(
+                "Plane {} arrived",
+                airplane.getPlaneId()
+        );
         airplane.setPlaneState(new WaitingForGateState(airplane, airport));
     }
 }

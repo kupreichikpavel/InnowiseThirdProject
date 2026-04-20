@@ -16,8 +16,13 @@ public class WaitingForGateState extends AbstractPlaneState {
 
     @Override
     public void handler() throws CustomAirPortException {
-        //TODO: переделать log и вывод информации
-        logger.info("Plane " + airplane.getPlaneId() + " arrived at airport");
+        airport.acquireGate(airplane);
+        logger.info(
+                "Plane {} occupied gate {} in terminal {}",
+                airplane.getPlaneId(),
+                airplane.getCurrentGate().getGateId(),
+                airplane.getCurrentTerminal().getTerminalId()
+        );
         airplane.setPlaneState(new AtGateState(airplane, airport));
     }
 }

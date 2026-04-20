@@ -3,19 +3,24 @@ package org.multithreadingAirport.entityAirport;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.multithreadingAirport.utils.IdGenerator;
 
 @Getter
 @Setter
 @RequiredArgsConstructor
-//TODO: переделать log и сделать работу с id
 public class Gate {
-    private int id;
+    private static final Logger logger = LogManager.getLogger(Gate.class);
+
+    private int gateId;
     private int size;
     private boolean occupied;
 
-    public Gate(int id, boolean occupied) {
-        this.id = id;
+    public Gate(boolean occupied) {
+        this.gateId = IdGenerator.nextGateId();
         this.occupied = occupied;
+        logger.info("Creating Gate with id {}", gateId);
     }
 
 

@@ -11,6 +11,7 @@ import lombok.Setter;
 import lombok.RequiredArgsConstructor;
 import org.multithreadingAirport.states.PlaneState;
 import org.multithreadingAirport.states.impl.DepartedState;
+import org.multithreadingAirport.utils.IdGenerator;
 
 @Getter
 @Setter
@@ -26,9 +27,10 @@ public class Airplane implements Callable<Void> {
     private PlaneState planeState;
     private Airport airport;
 
-    public Airplane(int planeId, Airport airport) {
-        this.planeId = planeId;
+    public Airplane(Airport airport) {
+        this.planeId = IdGenerator.nextPlaneId();
         this.airport = airport;
+        logger.info("Creating Airplane with id {} ", planeId);
     }
 
     @Override
@@ -38,32 +40,5 @@ public class Airplane implements Callable<Void> {
         }
         planeState.handler();
         return null;
-    }
-
-
-    @Override
-    public final boolean equals(Object o) {
-        if (o == null) {
-            return false;
-        }
-        if (this == o) {
-            return true;
-        }
-        if (!(o instanceof Airplane airplane)) return false;
-
-        if (airplane.getPlaneId() != getPlaneId()) {
-            return false;
-        }
-        return true;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = getPlaneId();
-        result = 31 * result + getPlaneCapacity();
-        result = 31 * result + getAveragePassengers();
-        result = 31 * result + currentGate.hashCode();
-        result = 31 * result + getPlaneState().hashCode();
-        return result;
     }
 }

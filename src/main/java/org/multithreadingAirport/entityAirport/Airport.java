@@ -8,10 +8,9 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Airport {
-    private Semaphore gateSemaphore;
+    private final Semaphore gateSemaphore;
     private Lock lock = new ReentrantLock();
-    private List<Terminal> terminals;
-    //TODO: переделать log
+    private final List<Terminal> terminals;
 
     public Airport(List<Terminal> terminals) {
         this.terminals = terminals;
@@ -25,28 +24,6 @@ public class Airport {
             count += terminal.getGates().size();
         }
         return count;
-    }
-
-
-    public Gate acquireGate() {
-        try {
-            gateSemaphore.acquire();
-            lock.lock();
-            for (Terminal terminal : terminals) {
-                for (Gate gate : terminal.getGates()) {
-                    if (!gate.isOccupied()) {
-                        gate.setOccupied(true);
-                        return gate;
-                    }
-                }
-            }
-        } catch (
-                InterruptedException e) {
-            Thread.currentThread().interrupt();
-        } finally {
-            lock.unlock();
-        }
-        return null;
     }
 
     public Gate acquireGate(Airplane airplane) throws CustomAirPortException {
@@ -70,7 +47,6 @@ public class Airport {
         } finally {
             lock.unlock();
         }
-
         throw new CustomAirPortException("No free gate found");
     }
 
@@ -87,5 +63,8 @@ public class Airport {
         }
 
         gateSemaphore.release();
+    }
+    public void unloadPassengers(Airplane airplane){
+
     }
 }
