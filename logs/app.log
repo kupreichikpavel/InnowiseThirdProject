@@ -1,112 +1,111 @@
-2026-04-20 18:09:17 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating gate with id1
-2026-04-20 18:09:17 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating gate with id2
-2026-04-20 18:09:17 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating gate with id3
-2026-04-20 18:09:17 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating gate with id4
-2026-04-20 18:09:17 [main] INFO  org.multithreadingAirport.entityAirport.Terminal - Creating Terminal with id0
-2026-04-20 18:09:17 [main] INFO  org.multithreadingAirport.entityAirport.Terminal - Creating Terminal with id0
-2026-04-20 18:09:17 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 0 
-2026-04-20 18:09:17 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 0 
-2026-04-20 18:09:17 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 0 
-2026-04-20 18:09:17 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 0 
-2026-04-20 18:09:17 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 0 
-2026-04-20 18:09:17 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 0 
-2026-04-20 18:09:17 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 0 
-2026-04-20 18:09:17 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 0 
-2026-04-20 18:09:17 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 0 
-2026-04-20 18:09:17 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 0 
-2026-04-20 18:09:17 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 1 arrived
-2026-04-20 18:09:17 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 4 arrived
-2026-04-20 18:09:17 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 3 arrived
-2026-04-20 18:09:17 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 2 arrived
-2026-04-20 18:09:17 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 5 arrived
-2026-04-20 18:09:17 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 1 occupied gate 1 in terminal 1
-2026-04-20 18:09:17 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 5 occupied gate 2 in terminal 1
-2026-04-20 18:09:17 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 6 arrived
-2026-04-20 18:09:17 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 2 occupied gate 3 in terminal 2
-2026-04-20 18:09:17 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 6 occupied gate 4 in terminal 2
-2026-04-20 18:09:17 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 1 occupied gate 1 
-2026-04-20 18:09:17 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 2 occupied gate 3 
-2026-04-20 18:09:17 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 6 occupied gate 4 
-2026-04-20 18:09:17 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 1 departed
-2026-04-20 18:09:17 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 6 departed
-2026-04-20 18:09:17 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 2 departed
-2026-04-20 18:09:17 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 4 occupied gate 1 in terminal 1
-2026-04-20 18:09:17 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 5 occupied gate 2 
-2026-04-20 18:09:17 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 5 departed
-2026-04-20 18:09:17 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 3 occupied gate 2 in terminal 1
-2026-04-20 18:09:17 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 4 occupied gate 1 
-2026-04-20 18:09:17 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 3 occupied gate 2 
-2026-04-20 18:09:17 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 3 departed
-2026-04-20 18:09:17 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 8 arrived
-2026-04-20 18:09:17 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 4 departed
-2026-04-20 18:09:17 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 9 arrived
-2026-04-20 18:09:17 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 8 occupied gate 1 in terminal 1
-2026-04-20 18:09:17 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 7 arrived
-2026-04-20 18:09:17 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 9 occupied gate 2 in terminal 1
-2026-04-20 18:09:17 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 10 arrived
-2026-04-20 18:09:17 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 8 occupied gate 1 
-2026-04-20 18:09:17 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 9 occupied gate 2 
-2026-04-20 18:09:17 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 8 departed
-2026-04-20 18:09:17 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 10 occupied gate 4 in terminal 2
-2026-04-20 18:09:17 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 9 departed
-2026-04-20 18:09:17 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 7 occupied gate 3 in terminal 2
-2026-04-20 18:09:17 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 10 occupied gate 4 
-2026-04-20 18:09:17 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 10 departed
-2026-04-20 18:09:17 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 7 occupied gate 3 
-2026-04-20 18:09:17 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 7 departed
-2026-04-20 18:13:12 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 1
-2026-04-20 18:13:12 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 2
-2026-04-20 18:13:12 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 3
-2026-04-20 18:13:12 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 4
-2026-04-20 18:13:12 [main] INFO  org.multithreadingAirport.entityAirport.Terminal - Creating Terminal with id 1
-2026-04-20 18:13:12 [main] INFO  org.multithreadingAirport.entityAirport.Terminal - Creating Terminal with id 2
-2026-04-20 18:13:12 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 1 
-2026-04-20 18:13:12 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 2 
-2026-04-20 18:13:12 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 3 
-2026-04-20 18:13:12 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 4 
-2026-04-20 18:13:12 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 5 
-2026-04-20 18:13:12 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 6 
-2026-04-20 18:13:12 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 7 
-2026-04-20 18:13:12 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 8 
-2026-04-20 18:13:12 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 9 
-2026-04-20 18:13:12 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 10 
-2026-04-20 18:13:12 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 5 arrived
-2026-04-20 18:13:12 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 1 arrived
-2026-04-20 18:13:12 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 3 arrived
-2026-04-20 18:13:12 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 6 arrived
-2026-04-20 18:13:12 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 4 arrived
-2026-04-20 18:13:12 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 2 arrived
-2026-04-20 18:13:12 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 8 arrived
-2026-04-20 18:13:12 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 2 occupied gate 1 in terminal 1
-2026-04-20 18:13:12 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 8 occupied gate 4 in terminal 2
-2026-04-20 18:13:12 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 6 occupied gate 3 in terminal 2
-2026-04-20 18:13:12 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 6 occupied gate 3 
-2026-04-20 18:13:12 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 8 occupied gate 4 
-2026-04-20 18:13:12 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 2 occupied gate 1 
-2026-04-20 18:13:12 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 6 departed
-2026-04-20 18:13:12 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 3 occupied gate 3 in terminal 2
-2026-04-20 18:13:12 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 10 arrived
-2026-04-20 18:13:12 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 2 departed
-2026-04-20 18:13:12 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 3 occupied gate 3 
-2026-04-20 18:13:12 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 8 departed
-2026-04-20 18:13:12 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 9 arrived
-2026-04-20 18:13:12 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 3 departed
-2026-04-20 18:13:12 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 1 occupied gate 2 in terminal 1
-2026-04-20 18:13:12 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 4 occupied gate 1 in terminal 1
-2026-04-20 18:13:12 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 1 occupied gate 2 
-2026-04-20 18:13:12 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 4 occupied gate 1 
-2026-04-20 18:13:12 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 1 departed
-2026-04-20 18:13:12 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 7 arrived
-2026-04-20 18:13:12 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 4 departed
-2026-04-20 18:13:12 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 5 occupied gate 1 in terminal 1
-2026-04-20 18:13:12 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 10 occupied gate 2 in terminal 1
-2026-04-20 18:13:12 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 9 occupied gate 3 in terminal 2
-2026-04-20 18:13:12 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 7 occupied gate 4 in terminal 2
-2026-04-20 18:13:12 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 5 occupied gate 1 
-2026-04-20 18:13:12 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 9 occupied gate 3 
-2026-04-20 18:13:12 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 10 occupied gate 2 
-2026-04-20 18:13:12 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 5 departed
-2026-04-20 18:13:12 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 7 occupied gate 4 
-2026-04-20 18:13:12 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 9 departed
-2026-04-20 18:13:12 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 10 departed
-2026-04-20 18:13:12 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 7 departed
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.Main - Application started
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Starting reading info from file
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.parser.impl.CustomFileParserImpl - Parsing data from file
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.factory.AirportConfig - Create AirportConfig from parser
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.Main - Config parsed: terminals=3, gates=6, airplanes=10
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 1
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 2
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Terminal - Creating Terminal with id 1
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 3
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 4
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Terminal - Creating Terminal with id 2
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 5
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 6
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Terminal - Creating Terminal with id 3
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.Main - Terminals and gates created
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Airport - Airport initialized with 3 terminals
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Airport - Airport instance created with 3 terminals and 6 gates
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.Main - Airport singleton initialized
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 1 
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 2 
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 3 
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 4 
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 5 
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 6 
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 7 
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 8 
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 9 
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 10 
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.Main - Airplanes created: count=10
+2026-04-30 21:20:02 [pool-2-thread-1] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 1 started execution
+2026-04-30 21:20:02 [pool-2-thread-1] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 1
+2026-04-30 21:20:02 [pool-2-thread-4] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 4 started execution
+2026-04-30 21:20:02 [pool-2-thread-4] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 4
+2026-04-30 21:20:02 [pool-2-thread-2] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 2 started execution
+2026-04-30 21:20:02 [pool-2-thread-3] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 3 started execution
+2026-04-30 21:20:02 [pool-2-thread-2] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 2
+2026-04-30 21:20:02 [pool-2-thread-3] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 3
+2026-04-30 21:20:02 [pool-2-thread-5] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 5 started execution
+2026-04-30 21:20:02 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 2 arrived
+2026-04-30 21:20:02 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 3 arrived
+2026-04-30 21:20:02 [pool-2-thread-6] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 6 started execution
+2026-04-30 21:20:02 [pool-2-thread-5] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 5
+2026-04-30 21:20:02 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 4 arrived
+2026-04-30 21:20:02 [pool-2-thread-6] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 6
+2026-04-30 21:20:02 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 2 occupied gate 1 in terminal 1
+2026-04-30 21:20:02 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 1 arrived
+2026-04-30 21:20:02 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 4 occupied gate 2 in terminal 1
+2026-04-30 21:20:02 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 6 arrived
+2026-04-30 21:20:02 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 5 arrived
+2026-04-30 21:20:02 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 3 occupied gate 4 in terminal 2
+2026-04-30 21:20:02 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 5 occupied gate 5 in terminal 3
+2026-04-30 21:20:02 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 3 occupied gate 4 
+2026-04-30 21:20:02 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 5 occupied gate 5 
+2026-04-30 21:20:02 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 1 occupied gate 3 in terminal 2
+2026-04-30 21:20:02 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 1 occupied gate 3 
+2026-04-30 21:20:02 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 4 occupied gate 2 
+2026-04-30 21:20:02 [pool-2-thread-3] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 3 departed
+2026-04-30 21:20:02 [pool-2-thread-7] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 7 started execution
+2026-04-30 21:20:02 [pool-2-thread-7] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 7
+2026-04-30 21:20:02 [pool-2-thread-3] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 3
+2026-04-30 21:20:02 [pool-2-thread-5] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 5 departed
+2026-04-30 21:20:02 [pool-2-thread-5] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 5
+2026-04-30 21:20:02 [pool-2-thread-8] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 8 started execution
+2026-04-30 21:20:02 [pool-2-thread-5] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 5 finished execution
+2026-04-30 21:20:02 [pool-2-thread-3] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 3 finished execution
+2026-04-30 21:20:02 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 6 occupied gate 6 in terminal 3
+2026-04-30 21:20:02 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 6 occupied gate 6 
+2026-04-30 21:20:02 [pool-2-thread-10] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 10 started execution
+2026-04-30 21:20:02 [pool-2-thread-6] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 6 departed
+2026-04-30 21:20:02 [pool-2-thread-10] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 10
+2026-04-30 21:20:02 [pool-2-thread-6] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 6
+2026-04-30 21:20:02 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 10 arrived
+2026-04-30 21:20:02 [pool-2-thread-9] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 9 started execution
+2026-04-30 21:20:02 [pool-2-thread-8] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 8
+2026-04-30 21:20:02 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 2 occupied gate 1 
+2026-04-30 21:20:02 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 10 occupied gate 2 in terminal 1
+2026-04-30 21:20:02 [pool-2-thread-9] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 9
+2026-04-30 21:20:02 [pool-2-thread-6] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 6 finished execution
+2026-04-30 21:20:02 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 10 occupied gate 2 
+2026-04-30 21:20:02 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 9 arrived
+2026-04-30 21:20:02 [pool-2-thread-4] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 4 departed
+2026-04-30 21:20:02 [pool-2-thread-2] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 2 departed
+2026-04-30 21:20:02 [pool-2-thread-1] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 1 departed
+2026-04-30 21:20:02 [pool-2-thread-10] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 10 departed
+2026-04-30 21:20:02 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 9 occupied gate 1 in terminal 1
+2026-04-30 21:20:02 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 7 arrived
+2026-04-30 21:20:02 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 9 occupied gate 1 
+2026-04-30 21:20:02 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 8 arrived
+2026-04-30 21:20:02 [pool-2-thread-1] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 1
+2026-04-30 21:20:02 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 7 occupied gate 1 in terminal 1
+2026-04-30 21:20:02 [pool-2-thread-4] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 4
+2026-04-30 21:20:02 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 8 occupied gate 2 in terminal 1
+2026-04-30 21:20:02 [pool-2-thread-1] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 1 finished execution
+2026-04-30 21:20:02 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 7 occupied gate 1 
+2026-04-30 21:20:02 [pool-2-thread-9] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 9 departed
+2026-04-30 21:20:02 [pool-2-thread-4] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 4 finished execution
+2026-04-30 21:20:02 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 8 occupied gate 2 
+2026-04-30 21:20:02 [pool-2-thread-7] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 7 departed
+2026-04-30 21:20:02 [pool-2-thread-9] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 9
+2026-04-30 21:20:02 [pool-2-thread-10] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 10
+2026-04-30 21:20:02 [pool-2-thread-7] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 7
+2026-04-30 21:20:02 [pool-2-thread-8] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 8 departed
+2026-04-30 21:20:02 [pool-2-thread-2] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 2
+2026-04-30 21:20:02 [pool-2-thread-9] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 9 finished execution
+2026-04-30 21:20:02 [pool-2-thread-8] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 8
+2026-04-30 21:20:02 [pool-2-thread-2] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 2 finished execution
+2026-04-30 21:20:02 [pool-2-thread-10] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 10 finished execution
+2026-04-30 21:20:02 [pool-2-thread-7] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 7 finished execution
+2026-04-30 21:20:02 [pool-2-thread-8] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 8 finished execution
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.Main - All airplanes finished work
+2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.Main - Application finished

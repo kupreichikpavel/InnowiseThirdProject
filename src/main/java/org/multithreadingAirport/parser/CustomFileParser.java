@@ -1,8 +1,9 @@
 package org.multithreadingAirport.parser;
 
+import org.multithreadingAirport.factory.AirportConfig;
+
 import java.util.List;
 
 public interface CustomFileParser {
-    void parse(List<String> file);
-
+    AirportConfig parse(List<String> file);
 }

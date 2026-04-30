@@ -5,8 +5,6 @@ import org.apache.logging.log4j.Logger;
 import org.multithreadingAirport.customFileReader.CustomFileReader;
 import org.multithreadingAirport.exception.CustomAirPortException;
 
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -38,6 +36,7 @@ public class CustomFileReaderImpl implements CustomFileReader {
             }
             return resultLines;
         } catch (Exception e) {
+            logger.error("Error reading file: {}", path, e);
             throw new CustomAirPortException();
         }
     }

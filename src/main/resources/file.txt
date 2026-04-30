@@ -1,0 +1,3 @@
+terminals=3
+gates=6
+airplanes=10

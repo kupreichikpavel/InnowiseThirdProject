@@ -14,7 +14,6 @@ public class Gate {
     private static final Logger logger = LogManager.getLogger(Gate.class);
 
     private int gateId;
-    private int size;
     private boolean occupied;
 
     public Gate(boolean occupied) {
@@ -22,6 +21,4 @@ public class Gate {
         this.occupied = occupied;
         logger.info("Creating Gate with id {}", gateId);
     }
-
-
 }
