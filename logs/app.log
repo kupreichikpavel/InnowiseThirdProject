@@ -109,3 +109,307 @@
 2026-04-30 21:20:02 [pool-2-thread-8] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 8 finished execution
 2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.Main - All airplanes finished work
 2026-04-30 21:20:02 [main] INFO  org.multithreadingAirport.Main - Application finished
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.parser.impl.CustomFileParserImpl - Parsing data from file
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.factory.AirportConfig - Create AirportConfig from parser
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.parser.impl.CustomFileParserImpl - Parsing data from file
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.factory.AirportConfig - Create AirportConfig from parser
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.parser.impl.CustomFileParserImpl - Parsing data from file
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 1
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 2
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 3
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Terminal - Creating Terminal with id 1
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Airport - Airport initialized with 1 terminals
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Airport - Airport instance created with 1 terminals and 1 gates
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 4
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Terminal - Creating Terminal with id 2
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Airport - Airport initialized with 1 terminals
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 5
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Terminal - Creating Terminal with id 3
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Airport - Airport initialized with 1 terminals
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 6
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 7
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Terminal - Creating Terminal with id 4
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Airport - Airport initialized with 1 terminals
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 1 
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 8
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 9
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Terminal - Creating Terminal with id 5
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.factory.AirportConfig - Create AirportConfig from parser
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.factory.AirportConfig - Create AirportConfig from parser
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.factory.AirportConfig - Create AirportConfig from parser
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.Main - Application started
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Starting reading info from file
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.parser.impl.CustomFileParserImpl - Parsing data from file
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.factory.AirportConfig - Create AirportConfig from parser
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.Main - Config parsed: terminals=3, gates=6, airplanes=10
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 10
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 11
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Terminal - Creating Terminal with id 6
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 12
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 13
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Terminal - Creating Terminal with id 7
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 14
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Gate - Creating Gate with id 15
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Terminal - Creating Terminal with id 8
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.Main - Terminals and gates created
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Airport - Airport initialized with 3 terminals
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.Main - Airport singleton initialized
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 2 
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 3 
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 4 
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 5 
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 6 
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 7 
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 8 
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 9 
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 10 
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.entityAirport.Airplane - Creating Airplane with id 11 
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.Main - Airplanes created: count=10
+2026-05-10 00:58:06 [pool-3-thread-5] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 6 started execution
+2026-05-10 00:58:06 [pool-3-thread-2] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 3 started execution
+2026-05-10 00:58:06 [pool-3-thread-6] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 7 started execution
+2026-05-10 00:58:06 [pool-3-thread-5] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 6
+2026-05-10 00:58:06 [pool-3-thread-1] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 2 started execution
+2026-05-10 00:58:06 [pool-3-thread-3] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 4 started execution
+2026-05-10 00:58:06 [pool-3-thread-6] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 7
+2026-05-10 00:58:06 [pool-3-thread-4] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 5 started execution
+2026-05-10 00:58:06 [pool-3-thread-4] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 5
+2026-05-10 00:58:06 [pool-3-thread-7] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 8 started execution
+2026-05-10 00:58:06 [pool-3-thread-3] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 4
+2026-05-10 00:58:06 [pool-3-thread-8] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 9 started execution
+2026-05-10 00:58:06 [pool-3-thread-4] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 5 arrived
+2026-05-10 00:58:06 [pool-3-thread-8] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 9
+2026-05-10 00:58:06 [pool-3-thread-3] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 4 arrived
+2026-05-10 00:58:06 [pool-3-thread-2] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 3
+2026-05-10 00:58:06 [pool-3-thread-7] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 8
+2026-05-10 00:58:06 [pool-3-thread-6] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 7 arrived
+2026-05-10 00:58:06 [pool-3-thread-9] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 10 started execution
+2026-05-10 00:58:06 [pool-3-thread-4] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 5 occupied gate 3 in terminal 1
+2026-05-10 00:58:06 [pool-3-thread-8] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 9 arrived
+2026-05-10 00:58:06 [pool-3-thread-7] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 8 arrived
+2026-05-10 00:58:06 [pool-3-thread-1] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 2
+2026-05-10 00:58:06 [pool-3-thread-10] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 11 started execution
+2026-05-10 00:58:06 [pool-3-thread-5] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 6 arrived
+2026-05-10 00:58:06 [pool-3-thread-1] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 2 arrived
+2026-05-10 00:58:06 [pool-3-thread-4] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 5 occupied gate 3 
+2026-05-10 00:58:06 [pool-3-thread-2] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 3 arrived
+2026-05-10 00:58:06 [pool-3-thread-9] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 10
+2026-05-10 00:58:06 [pool-3-thread-4] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 5 departed
+2026-05-10 00:58:06 [pool-3-thread-10] INFO  org.multithreadingAirport.entityAirport.Airport - Airport started processing airplane 11
+2026-05-10 00:58:06 [pool-3-thread-9] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 10 arrived
+2026-05-10 00:58:06 [pool-3-thread-4] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 5
+2026-05-10 00:58:06 [pool-3-thread-10] INFO  org.multithreadingAirport.states.impl.ArrivedState - Plane 11 arrived
+2026-05-10 00:58:06 [pool-3-thread-6] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 7 occupied gate 3 in terminal 1
+2026-05-10 00:58:06 [pool-3-thread-4] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 5 finished execution
+2026-05-10 00:58:06 [pool-3-thread-6] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 7 occupied gate 3 
+2026-05-10 00:58:06 [pool-3-thread-6] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 7 departed
+2026-05-10 00:58:06 [pool-3-thread-8] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 9 occupied gate 3 in terminal 1
+2026-05-10 00:58:06 [pool-3-thread-6] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 7
+2026-05-10 00:58:06 [pool-3-thread-8] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 9 occupied gate 3 
+2026-05-10 00:58:06 [pool-3-thread-6] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 7 finished execution
+2026-05-10 00:58:06 [pool-3-thread-8] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 9 departed
+2026-05-10 00:58:06 [pool-3-thread-8] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 9
+2026-05-10 00:58:06 [pool-3-thread-3] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 4 occupied gate 3 in terminal 1
+2026-05-10 00:58:06 [pool-3-thread-8] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 9 finished execution
+2026-05-10 00:58:06 [pool-3-thread-3] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 4 occupied gate 3 
+2026-05-10 00:58:06 [pool-3-thread-7] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 8 occupied gate 3 in terminal 1
+2026-05-10 00:58:06 [pool-3-thread-3] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 4 departed
+2026-05-10 00:58:06 [pool-3-thread-7] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 8 occupied gate 3 
+2026-05-10 00:58:06 [pool-3-thread-3] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 4
+2026-05-10 00:58:06 [pool-3-thread-7] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 8 departed
+2026-05-10 00:58:06 [pool-3-thread-3] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 4 finished execution
+2026-05-10 00:58:06 [pool-3-thread-7] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 8
+2026-05-10 00:58:06 [pool-3-thread-7] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 8 finished execution
+2026-05-10 00:58:06 [pool-3-thread-5] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 6 occupied gate 3 in terminal 1
+2026-05-10 00:58:06 [pool-3-thread-5] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 6 occupied gate 3 
+2026-05-10 00:58:06 [pool-3-thread-5] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 6 departed
+2026-05-10 00:58:06 [pool-3-thread-1] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 2 occupied gate 3 in terminal 1
+2026-05-10 00:58:06 [pool-3-thread-5] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 6
+2026-05-10 00:58:06 [pool-3-thread-1] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 2 occupied gate 3 
+2026-05-10 00:58:06 [pool-3-thread-5] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 6 finished execution
+2026-05-10 00:58:06 [pool-3-thread-1] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 2 departed
+2026-05-10 00:58:06 [pool-3-thread-1] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 2
+2026-05-10 00:58:06 [pool-3-thread-2] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 3 occupied gate 3 in terminal 1
+2026-05-10 00:58:06 [pool-3-thread-1] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 2 finished execution
+2026-05-10 00:58:06 [pool-3-thread-2] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 3 occupied gate 3 
+2026-05-10 00:58:06 [pool-3-thread-2] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 3 departed
+2026-05-10 00:58:06 [pool-3-thread-9] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 10 occupied gate 3 in terminal 1
+2026-05-10 00:58:06 [pool-3-thread-2] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 3
+2026-05-10 00:58:06 [pool-3-thread-9] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 10 occupied gate 3 
+2026-05-10 00:58:06 [pool-3-thread-2] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 3 finished execution
+2026-05-10 00:58:06 [pool-3-thread-9] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 10 departed
+2026-05-10 00:58:06 [pool-3-thread-10] INFO  org.multithreadingAirport.states.impl.WaitingForGateState - Plane 11 occupied gate 3 in terminal 1
+2026-05-10 00:58:06 [pool-3-thread-9] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 10
+2026-05-10 00:58:06 [pool-3-thread-10] INFO  org.multithreadingAirport.states.impl.AtGateState - Plane 11 occupied gate 3 
+2026-05-10 00:58:06 [pool-3-thread-9] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 10 finished execution
+2026-05-10 00:58:06 [pool-3-thread-10] INFO  org.multithreadingAirport.states.impl.DepartedState - Plane 11 departed
+2026-05-10 00:58:06 [pool-3-thread-10] INFO  org.multithreadingAirport.entityAirport.Airport - Airport finished processing airplane 11
+2026-05-10 00:58:06 [pool-3-thread-10] INFO  org.multithreadingAirport.entityAirport.Airplane - Airplane 11 finished execution
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.Main - All airplanes finished work
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.Main - Application finished
+2026-05-10 00:58:06 [main] WARN  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Error path to file, path is null
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Starting reading info from file
+2026-05-10 00:58:06 [main] INFO  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Starting reading info from file
+2026-05-10 00:58:06 [main] ERROR org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Error reading file: /var/folders/jb/8zy7m8w113l5nmfwj19j7p0w0000gq/T/junit5640797473261188918/empty.txt
+org.multithreadingAirport.exception.CustomAirPortException: null
+	at org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl.read(CustomFileReaderImpl.java:35) [classes/:?]
+	at org.multithreadingAirport.customFileReader.impl.CustomFileReaderImplTest.lambda$readShouldThrowWhenFileHasNoNotEmptyLines$0(CustomFileReaderImplTest.java:63) [test-classes/:?]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.multithreadingAirport.customFileReader.impl.CustomFileReaderImplTest.readShouldThrowWhenFileHasNoNotEmptyLines(CustomFileReaderImplTest.java:63) [test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) [junit-platform-commons-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56) [surefire-junit-platform-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184) [surefire-junit-platform-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148) [surefire-junit-platform-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122) [surefire-junit-platform-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.2.5.jar:3.2.5]
+2026-05-10 00:58:06 [main] ERROR org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Error reading file: /var/folders/jb/8zy7m8w113l5nmfwj19j7p0w0000gq/T/junit8779968380580393912/missing.txt
+java.nio.file.NoSuchFileException: /var/folders/jb/8zy7m8w113l5nmfwj19j7p0w0000gq/T/junit8779968380580393912/missing.txt
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:213) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:301) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:353) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:3738) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:3829) ~[?:?]
+	at org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl.read(CustomFileReaderImpl.java:29) [classes/:?]
+	at org.multithreadingAirport.customFileReader.impl.CustomFileReaderImplTest.lambda$readShouldThrowWhenFileDoesNotExist$0(CustomFileReaderImplTest.java:54) [test-classes/:?]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.multithreadingAirport.customFileReader.impl.CustomFileReaderImplTest.readShouldThrowWhenFileDoesNotExist(CustomFileReaderImplTest.java:52) [test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) [junit-platform-commons-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56) [surefire-junit-platform-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184) [surefire-junit-platform-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148) [surefire-junit-platform-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122) [surefire-junit-platform-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.2.5.jar:3.2.5]
+2026-05-10 00:58:06 [main] WARN  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Error path to file, path is empty
