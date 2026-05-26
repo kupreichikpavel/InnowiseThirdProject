@@ -413,3 +413,131 @@ java.nio.file.NoSuchFileException: /var/folders/jb/8zy7m8w113l5nmfwj19j7p0w0000g
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.2.5.jar:3.2.5]
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.2.5.jar:3.2.5]
 2026-05-10 00:58:06 [main] WARN  org.multithreadingAirport.customFileReader.impl.CustomFileReaderImpl - Error path to file, path is empty
+2026-05-26 23:00:34 [main] INFO  com.java.multithreading.Main - Application started
+2026-05-26 23:00:34 [main] ERROR com.java.multithreading.reader.impl.CustomFileReaderImpl - Error reading file: /Users/alexey/IdeaProjects/InnowiseThirdProject/src/main/resources/file.txt
+java.nio.file.NoSuchFileException: /Users/alexey/IdeaProjects/InnowiseThirdProject/src/main/resources/file.txt
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:213) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:301) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:353) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:3738) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:3829) ~[?:?]
+	at com.java.multithreading.reader.impl.CustomFileReaderImpl.read(CustomFileReaderImpl.java:29) [classes/:?]
+	at com.java.multithreading.Main.main(Main.java:31) [classes/:?]
+2026-05-26 23:00:34 [main] ERROR com.java.multithreading.Main - Airport error occurred
+com.java.multithreading.exception.CustomAirPortException: null
+	at com.java.multithreading.reader.impl.CustomFileReaderImpl.read(CustomFileReaderImpl.java:40) ~[classes/:?]
+	at com.java.multithreading.Main.main(Main.java:31) [classes/:?]
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.Main - Application started
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.reader.impl.CustomFileReaderImpl - Starting reading info from file
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.parser.impl.CustomFileParserImpl - Parsing data from file
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.factory.AirportConfig - Create AirportConfig from parser
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.Main - Config parsed: terminals=3, gates=6, airplanes=10
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Gate - Creating Gate with id 1
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Gate - Creating Gate with id 2
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Terminal - Creating Terminal with id 1
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Gate - Creating Gate with id 3
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Gate - Creating Gate with id 4
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Terminal - Creating Terminal with id 2
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Gate - Creating Gate with id 5
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Gate - Creating Gate with id 6
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Terminal - Creating Terminal with id 3
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.Main - Terminals and gates created
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Airport - Airport initialized with 3 terminals
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Airport - Airport instance created with 3 terminals and 6 gates
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.Main - Airport singleton initialized
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Airplane - Creating Airplane with id 1 
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Airplane - Creating Airplane with id 2 
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Airplane - Creating Airplane with id 3 
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Airplane - Creating Airplane with id 4 
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Airplane - Creating Airplane with id 5 
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Airplane - Creating Airplane with id 6 
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Airplane - Creating Airplane with id 7 
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Airplane - Creating Airplane with id 8 
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Airplane - Creating Airplane with id 9 
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.entity.Airplane - Creating Airplane with id 10 
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.Main - Airplanes created: count=10
+2026-05-26 23:01:20 [pool-2-thread-1] INFO  com.java.multithreading.entity.Airplane - Airplane 1 started execution
+2026-05-26 23:01:20 [pool-2-thread-1] INFO  com.java.multithreading.entity.Airport - Airport started processing airplane 1
+2026-05-26 23:01:20 [pool-2-thread-2] INFO  com.java.multithreading.entity.Airplane - Airplane 2 started execution
+2026-05-26 23:01:20 [pool-2-thread-2] INFO  com.java.multithreading.entity.Airport - Airport started processing airplane 2
+2026-05-26 23:01:20 [pool-2-thread-3] INFO  com.java.multithreading.entity.Airplane - Airplane 3 started execution
+2026-05-26 23:01:20 [pool-2-thread-3] INFO  com.java.multithreading.entity.Airport - Airport started processing airplane 3
+2026-05-26 23:01:20 [pool-2-thread-1] INFO  com.java.multithreading.state.impl.ArrivedState - Plane 1 arrived
+2026-05-26 23:01:20 [pool-2-thread-3] INFO  com.java.multithreading.state.impl.ArrivedState - Plane 3 arrived
+2026-05-26 23:01:20 [pool-2-thread-2] INFO  com.java.multithreading.state.impl.ArrivedState - Plane 2 arrived
+2026-05-26 23:01:20 [pool-2-thread-4] INFO  com.java.multithreading.entity.Airplane - Airplane 4 started execution
+2026-05-26 23:01:20 [pool-2-thread-4] INFO  com.java.multithreading.entity.Airport - Airport started processing airplane 4
+2026-05-26 23:01:20 [pool-2-thread-1] INFO  com.java.multithreading.state.impl.WaitingForGateState - Plane 1 occupied gate 1 in terminal 1
+2026-05-26 23:01:20 [pool-2-thread-4] INFO  com.java.multithreading.state.impl.ArrivedState - Plane 4 arrived
+2026-05-26 23:01:20 [pool-2-thread-4] INFO  com.java.multithreading.state.impl.WaitingForGateState - Plane 4 occupied gate 2 in terminal 1
+2026-05-26 23:01:20 [pool-2-thread-3] INFO  com.java.multithreading.state.impl.WaitingForGateState - Plane 3 occupied gate 3 in terminal 2
+2026-05-26 23:01:20 [pool-2-thread-1] INFO  com.java.multithreading.state.impl.AtGateState - Plane 1 occupied gate 1 
+2026-05-26 23:01:20 [pool-2-thread-3] INFO  com.java.multithreading.state.impl.AtGateState - Plane 3 occupied gate 3 
+2026-05-26 23:01:20 [pool-2-thread-1] INFO  com.java.multithreading.state.impl.DepartedState - Plane 1 departed
+2026-05-26 23:01:20 [pool-2-thread-3] INFO  com.java.multithreading.state.impl.DepartedState - Plane 3 departed
+2026-05-26 23:01:20 [pool-2-thread-1] INFO  com.java.multithreading.entity.Airport - Airport finished processing airplane 1
+2026-05-26 23:01:20 [pool-2-thread-3] INFO  com.java.multithreading.entity.Airport - Airport finished processing airplane 3
+2026-05-26 23:01:20 [pool-2-thread-1] INFO  com.java.multithreading.entity.Airplane - Airplane 1 finished execution
+2026-05-26 23:01:20 [pool-2-thread-3] INFO  com.java.multithreading.entity.Airplane - Airplane 3 finished execution
+2026-05-26 23:01:20 [pool-2-thread-2] INFO  com.java.multithreading.state.impl.WaitingForGateState - Plane 2 occupied gate 1 in terminal 1
+2026-05-26 23:01:20 [pool-2-thread-2] INFO  com.java.multithreading.state.impl.AtGateState - Plane 2 occupied gate 1 
+2026-05-26 23:01:20 [pool-2-thread-2] INFO  com.java.multithreading.state.impl.DepartedState - Plane 2 departed
+2026-05-26 23:01:20 [pool-2-thread-2] INFO  com.java.multithreading.entity.Airport - Airport finished processing airplane 2
+2026-05-26 23:01:20 [pool-2-thread-2] INFO  com.java.multithreading.entity.Airplane - Airplane 2 finished execution
+2026-05-26 23:01:20 [pool-2-thread-4] INFO  com.java.multithreading.state.impl.AtGateState - Plane 4 occupied gate 2 
+2026-05-26 23:01:20 [pool-2-thread-4] INFO  com.java.multithreading.state.impl.DepartedState - Plane 4 departed
+2026-05-26 23:01:20 [pool-2-thread-4] INFO  com.java.multithreading.entity.Airport - Airport finished processing airplane 4
+2026-05-26 23:01:20 [pool-2-thread-5] INFO  com.java.multithreading.entity.Airplane - Airplane 5 started execution
+2026-05-26 23:01:20 [pool-2-thread-5] INFO  com.java.multithreading.entity.Airport - Airport started processing airplane 5
+2026-05-26 23:01:20 [pool-2-thread-5] INFO  com.java.multithreading.state.impl.ArrivedState - Plane 5 arrived
+2026-05-26 23:01:20 [pool-2-thread-4] INFO  com.java.multithreading.entity.Airplane - Airplane 4 finished execution
+2026-05-26 23:01:20 [pool-2-thread-5] INFO  com.java.multithreading.state.impl.WaitingForGateState - Plane 5 occupied gate 1 in terminal 1
+2026-05-26 23:01:20 [pool-2-thread-5] INFO  com.java.multithreading.state.impl.AtGateState - Plane 5 occupied gate 1 
+2026-05-26 23:01:20 [pool-2-thread-5] INFO  com.java.multithreading.state.impl.DepartedState - Plane 5 departed
+2026-05-26 23:01:20 [pool-2-thread-6] INFO  com.java.multithreading.entity.Airplane - Airplane 6 started execution
+2026-05-26 23:01:20 [pool-2-thread-5] INFO  com.java.multithreading.entity.Airport - Airport finished processing airplane 5
+2026-05-26 23:01:20 [pool-2-thread-5] INFO  com.java.multithreading.entity.Airplane - Airplane 5 finished execution
+2026-05-26 23:01:20 [pool-2-thread-6] INFO  com.java.multithreading.entity.Airport - Airport started processing airplane 6
+2026-05-26 23:01:20 [pool-2-thread-7] INFO  com.java.multithreading.entity.Airplane - Airplane 7 started execution
+2026-05-26 23:01:20 [pool-2-thread-6] INFO  com.java.multithreading.state.impl.ArrivedState - Plane 6 arrived
+2026-05-26 23:01:20 [pool-2-thread-7] INFO  com.java.multithreading.entity.Airport - Airport started processing airplane 7
+2026-05-26 23:01:20 [pool-2-thread-8] INFO  com.java.multithreading.entity.Airplane - Airplane 8 started execution
+2026-05-26 23:01:20 [pool-2-thread-7] INFO  com.java.multithreading.state.impl.ArrivedState - Plane 7 arrived
+2026-05-26 23:01:20 [pool-2-thread-6] INFO  com.java.multithreading.state.impl.WaitingForGateState - Plane 6 occupied gate 1 in terminal 1
+2026-05-26 23:01:20 [pool-2-thread-8] INFO  com.java.multithreading.entity.Airport - Airport started processing airplane 8
+2026-05-26 23:01:20 [pool-2-thread-7] INFO  com.java.multithreading.state.impl.WaitingForGateState - Plane 7 occupied gate 2 in terminal 1
+2026-05-26 23:01:20 [pool-2-thread-8] INFO  com.java.multithreading.state.impl.ArrivedState - Plane 8 arrived
+2026-05-26 23:01:20 [pool-2-thread-7] INFO  com.java.multithreading.state.impl.AtGateState - Plane 7 occupied gate 2 
+2026-05-26 23:01:20 [pool-2-thread-8] INFO  com.java.multithreading.state.impl.WaitingForGateState - Plane 8 occupied gate 3 in terminal 2
+2026-05-26 23:01:20 [pool-2-thread-8] INFO  com.java.multithreading.state.impl.AtGateState - Plane 8 occupied gate 3 
+2026-05-26 23:01:20 [pool-2-thread-6] INFO  com.java.multithreading.state.impl.AtGateState - Plane 6 occupied gate 1 
+2026-05-26 23:01:20 [pool-2-thread-8] INFO  com.java.multithreading.state.impl.DepartedState - Plane 8 departed
+2026-05-26 23:01:20 [pool-2-thread-6] INFO  com.java.multithreading.state.impl.DepartedState - Plane 6 departed
+2026-05-26 23:01:20 [pool-2-thread-8] INFO  com.java.multithreading.entity.Airport - Airport finished processing airplane 8
+2026-05-26 23:01:20 [pool-2-thread-6] INFO  com.java.multithreading.entity.Airport - Airport finished processing airplane 6
+2026-05-26 23:01:20 [pool-2-thread-8] INFO  com.java.multithreading.entity.Airplane - Airplane 8 finished execution
+2026-05-26 23:01:20 [pool-2-thread-6] INFO  com.java.multithreading.entity.Airplane - Airplane 6 finished execution
+2026-05-26 23:01:20 [pool-2-thread-7] INFO  com.java.multithreading.state.impl.DepartedState - Plane 7 departed
+2026-05-26 23:01:20 [pool-2-thread-7] INFO  com.java.multithreading.entity.Airport - Airport finished processing airplane 7
+2026-05-26 23:01:20 [pool-2-thread-7] INFO  com.java.multithreading.entity.Airplane - Airplane 7 finished execution
+2026-05-26 23:01:20 [pool-2-thread-9] INFO  com.java.multithreading.entity.Airplane - Airplane 9 started execution
+2026-05-26 23:01:20 [pool-2-thread-9] INFO  com.java.multithreading.entity.Airport - Airport started processing airplane 9
+2026-05-26 23:01:20 [pool-2-thread-10] INFO  com.java.multithreading.entity.Airplane - Airplane 10 started execution
+2026-05-26 23:01:20 [pool-2-thread-9] INFO  com.java.multithreading.state.impl.ArrivedState - Plane 9 arrived
+2026-05-26 23:01:20 [pool-2-thread-10] INFO  com.java.multithreading.entity.Airport - Airport started processing airplane 10
+2026-05-26 23:01:20 [pool-2-thread-9] INFO  com.java.multithreading.state.impl.WaitingForGateState - Plane 9 occupied gate 1 in terminal 1
+2026-05-26 23:01:20 [pool-2-thread-10] INFO  com.java.multithreading.state.impl.ArrivedState - Plane 10 arrived
+2026-05-26 23:01:20 [pool-2-thread-9] INFO  com.java.multithreading.state.impl.AtGateState - Plane 9 occupied gate 1 
+2026-05-26 23:01:20 [pool-2-thread-10] INFO  com.java.multithreading.state.impl.WaitingForGateState - Plane 10 occupied gate 2 in terminal 1
+2026-05-26 23:01:20 [pool-2-thread-9] INFO  com.java.multithreading.state.impl.DepartedState - Plane 9 departed
+2026-05-26 23:01:20 [pool-2-thread-10] INFO  com.java.multithreading.state.impl.AtGateState - Plane 10 occupied gate 2 
+2026-05-26 23:01:20 [pool-2-thread-9] INFO  com.java.multithreading.entity.Airport - Airport finished processing airplane 9
+2026-05-26 23:01:20 [pool-2-thread-10] INFO  com.java.multithreading.state.impl.DepartedState - Plane 10 departed
+2026-05-26 23:01:20 [pool-2-thread-9] INFO  com.java.multithreading.entity.Airplane - Airplane 9 finished execution
+2026-05-26 23:01:20 [pool-2-thread-10] INFO  com.java.multithreading.entity.Airport - Airport finished processing airplane 10
+2026-05-26 23:01:20 [pool-2-thread-10] INFO  com.java.multithreading.entity.Airplane - Airplane 10 finished execution
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.Main - All airplanes finished work
+2026-05-26 23:01:20 [main] INFO  com.java.multithreading.Main - Application finished

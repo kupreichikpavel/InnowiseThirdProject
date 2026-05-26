@@ -28,7 +28,7 @@ public class Main {
 
             CustomFileReader reader = new CustomFileReaderImpl();
             CustomFileParser parser = new CustomFileParserImpl();
-            AirportConfig config = parser.parse(reader.read("/Users/alexey/IdeaProjects/InnowiseThirdProject/src/main/resources/file.txt"));
+            AirportConfig config = parser.parse(reader.read("src/main/com/resources/file.txt"));
 
             logger.info(
                     "Config parsed: terminals={}, gates={}, airplanes={}",
